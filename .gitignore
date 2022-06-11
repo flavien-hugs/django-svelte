@@ -1,0 +1,16 @@
+frontend/node_modules/
+frontend/public/build/
+frontend/.yarn
+frontend/.DS_Store
+
+.git
+.venv
+.vscode
+.idea
+db.sqlite3
+__pycache__
+**.pyc
+*/migrations/*.py
+*.sqlite3
+*.lock
+logs/*.log
