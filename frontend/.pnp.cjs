@@ -41,7 +41,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup-plugin-svelte", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:7.1.0"],\
             ["rollup-plugin-terser", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:7.0.2"],\
             ["sirv-cli", "npm:2.0.2"],\
-            ["svelte", "npm:3.48.0"]\
+            ["svelte", "npm:3.48.0"],\
+            ["svelte-routing", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:1.6.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -649,6 +650,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["dedent-js", [\
+        ["npm:1.0.1", {\
+          "packageLocation": "./.yarn/cache/dedent-js-npm-1.0.1-ddf8ce03f4-3a86f4b111.zip/node_modules/dedent-js/",\
+          "packageDependencies": [\
+            ["dedent-js", "npm:1.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["deepmerge", [\
         ["npm:4.2.2", {\
           "packageLocation": "./.yarn/cache/deepmerge-npm-4.2.2-112165ced2-a8c43a1ed8.zip/node_modules/deepmerge/",\
@@ -1163,6 +1173,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["lower-case", [\
+        ["npm:2.0.2", {\
+          "packageLocation": "./.yarn/cache/lower-case-npm-2.0.2-151055f1c2-83a0a5f159.zip/node_modules/lower-case/",\
+          "packageDependencies": [\
+            ["lower-case", "npm:2.0.2"],\
+            ["tslib", "npm:2.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["lru-cache", [\
         ["npm:6.0.0", {\
           "packageLocation": "./.yarn/cache/lru-cache-npm-6.0.0-b4c8668fe1-f97f499f89.zip/node_modules/lru-cache/",\
@@ -1368,6 +1388,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["no-case", [\
+        ["npm:3.0.4", {\
+          "packageLocation": "./.yarn/cache/no-case-npm-3.0.4-12884c3d98-0b2ebc113d.zip/node_modules/no-case/",\
+          "packageDependencies": [\
+            ["no-case", "npm:3.0.4"],\
+            ["lower-case", "npm:2.0.2"],\
+            ["tslib", "npm:2.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["node-gyp", [\
         ["npm:9.0.0", {\
           "packageLocation": "./.yarn/unplugged/node-gyp-npm-9.0.0-0eccfca4d1/node_modules/node-gyp/",\
@@ -1444,6 +1475,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["p-map", "npm:4.0.0"],\
             ["aggregate-error", "npm:3.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["pascal-case", [\
+        ["npm:3.1.2", {\
+          "packageLocation": "./.yarn/cache/pascal-case-npm-3.1.2-35f5b9bff6-ba98bfd595.zip/node_modules/pascal-case/",\
+          "packageDependencies": [\
+            ["pascal-case", "npm:3.1.2"],\
+            ["no-case", "npm:3.0.4"],\
+            ["tslib", "npm:2.4.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1943,9 +1985,61 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup-plugin-svelte", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:7.1.0"],\
             ["rollup-plugin-terser", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:7.0.2"],\
             ["sirv-cli", "npm:2.0.2"],\
-            ["svelte", "npm:3.48.0"]\
+            ["svelte", "npm:3.48.0"],\
+            ["svelte-routing", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:1.6.0"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["svelte-routing", [\
+        ["npm:1.6.0", {\
+          "packageLocation": "./.yarn/cache/svelte-routing-npm-1.6.0-9981cc9471-8c8668ad91.zip/node_modules/svelte-routing/",\
+          "packageDependencies": [\
+            ["svelte-routing", "npm:1.6.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:1.6.0", {\
+          "packageLocation": "./.yarn/__virtual__/svelte-routing-virtual-6bbffda1f4/0/cache/svelte-routing-npm-1.6.0-9981cc9471-8c8668ad91.zip/node_modules/svelte-routing/",\
+          "packageDependencies": [\
+            ["svelte-routing", "virtual:523f92577d6bcbd3334da2c61ecfbe9106ff9e28bdbc00f8170e1287d886a39bc27d7ba6d601ca9d3d6dcdc03901720ae9d8f2a419ca8781c7167ddb1f49df25#npm:1.6.0"],\
+            ["@types/svelte", null],\
+            ["svelte", "npm:3.48.0"],\
+            ["svelte2tsx", "virtual:6bbffda1f4766c12302569e2ababaa44e8c0f20c24097c890074a3000e1887c92ac8df81aa7885f758dde2069f88f2edc48146de68c4f22a663f5f1b8e393e2e#npm:0.1.193"]\
+          ],\
+          "packagePeers": [\
+            "@types/svelte",\
+            "svelte"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["svelte2tsx", [\
+        ["npm:0.1.193", {\
+          "packageLocation": "./.yarn/cache/svelte2tsx-npm-0.1.193-a26eac61fd-1ecca20eef.zip/node_modules/svelte2tsx/",\
+          "packageDependencies": [\
+            ["svelte2tsx", "npm:0.1.193"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bbffda1f4766c12302569e2ababaa44e8c0f20c24097c890074a3000e1887c92ac8df81aa7885f758dde2069f88f2edc48146de68c4f22a663f5f1b8e393e2e#npm:0.1.193", {\
+          "packageLocation": "./.yarn/__virtual__/svelte2tsx-virtual-219febf614/0/cache/svelte2tsx-npm-0.1.193-a26eac61fd-1ecca20eef.zip/node_modules/svelte2tsx/",\
+          "packageDependencies": [\
+            ["svelte2tsx", "virtual:6bbffda1f4766c12302569e2ababaa44e8c0f20c24097c890074a3000e1887c92ac8df81aa7885f758dde2069f88f2edc48146de68c4f22a663f5f1b8e393e2e#npm:0.1.193"],\
+            ["@types/svelte", null],\
+            ["@types/typescript", null],\
+            ["dedent-js", "npm:1.0.1"],\
+            ["pascal-case", "npm:3.1.2"],\
+            ["svelte", "npm:3.48.0"],\
+            ["typescript", null]\
+          ],\
+          "packagePeers": [\
+            "@types/svelte",\
+            "@types/typescript",\
+            "svelte",\
+            "typescript"\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["tar", [\
@@ -2000,6 +2094,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/totalist-npm-3.0.0-60426683c2-ec499bddfc.zip/node_modules/totalist/",\
           "packageDependencies": [\
             ["totalist", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tslib", [\
+        ["npm:2.4.0", {\
+          "packageLocation": "./.yarn/cache/tslib-npm-2.4.0-9cb6dc5030-8c4aa6a3c5.zip/node_modules/tslib/",\
+          "packageDependencies": [\
+            ["tslib", "npm:2.4.0"]\
           ],\
           "linkType": "HARD"\
         }]\
