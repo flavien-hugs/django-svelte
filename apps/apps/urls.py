@@ -2,10 +2,13 @@
 
 from django.urls import path
 
-from apps.apps.views import home, api
+from apps.apps.views import home
 
 
 urlpatterns = [
-    path(route="", view=home.home_view, name="home_view_path"),
-    path(route="api/greet", view=api.greeting_api),
+    path(
+        route="",
+        view=home.homepage_view,
+        name="home_view_path"
+    ),
 ]

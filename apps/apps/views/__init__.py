@@ -1,1 +1,1 @@
-from apps.apps.views.home import HomeView
+from apps.apps.views.home import HomePageView
